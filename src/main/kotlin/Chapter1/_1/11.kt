@@ -1,4 +1,4 @@
-package Chapter1
+package Chapter1._1
 
 fun main(args: Array<String>) {
     val matrix = arrayOf(
@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     }
     for (i in matrix.indices) {
         print("\n" + i)
-        for (j in matrix[i].indices) {
+        for (j in matrix.first().indices) {
             print(" " + if(matrix[i][j]) '*' else " ")
         }
     }
