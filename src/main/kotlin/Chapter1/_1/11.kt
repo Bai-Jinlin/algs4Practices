@@ -14,5 +14,4 @@ fun main(args: Array<String>) {
             print(" " + if(matrix[i][j]) '*' else " ")
         }
     }
-
 }

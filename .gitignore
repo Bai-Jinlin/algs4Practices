@@ -2,5 +2,7 @@
 .idea
 build
 out
-/src/main/java/test.java
-/src/main/kotlin/test.kt
+src/main/java/test.java
+src/main/kotlin/test.kt
+src/main/resources/
+src/test/

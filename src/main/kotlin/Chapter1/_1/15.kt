@@ -14,5 +14,5 @@ fun histogram(array: Array<Int>, M: Int): Array<Int> {
 }
 
 fun main(args: Array<String>) {
-    histogram(arrayOf(0, 1, 2, 3, 4, 5), 6).map { println(it) }
+    histogram(arrayOf(0, 1, 2, 3, 4, 5), 6).forEach{ println(it) }
 }

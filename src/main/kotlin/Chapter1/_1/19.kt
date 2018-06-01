@@ -16,5 +16,5 @@ fun F(N: Int): Array<Int> {
 }
 
 fun main(args: Array<String>) {
-    F(6).map { println(it) }
+    F(6).forEach { println(it) }
 }

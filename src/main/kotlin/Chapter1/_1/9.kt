@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
 
     val n = StdIn.readInt()
     var l = n
-    var s = 0
+    var s: Int
     var binary = ""
     while (l > 0) {
         s = l % 2
