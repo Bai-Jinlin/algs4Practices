@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 buildscript {
     var kotlin_version: String by extra
-    kotlin_version = "1.2.41"
+    kotlin_version = "1.2.50"
 
     repositories {
         mavenCentral()
@@ -14,6 +14,7 @@ buildscript {
 
 plugins {
     java
+    idea
 }
 
 group = "com.example"
